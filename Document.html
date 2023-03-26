@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="pl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- CZCIONKA -->
+    
+
+
+<!-- IKONY -->
+
+
+
+
+<link rel="stylesheet" href="./Document_files/style.css"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Document_files/css2" rel="stylesheet"><link rel="stylesheet" href="./Document_files/css2(1)"><link rel="stylesheet" href="./Document_files/css2(2)"><link rel="stylesheet" href="./Document_files/css2(3)"><link rel="stylesheet" href="./Document_files/css2(4)"></head>
+<body>
+
+ <nav>
+    <h1>Andrzej Kowalsky</h1>
+
+    <ol>
+        <li>O mnie</li>
+        <li>Doświadczenie</li>
+        <li>Kontakt</li>
+    </ol>
+ </nav>
+
+ <div class="wrapper">
+    <header>
+      <picture>
+        <img src="./Document_files/images" alt="Damian Krawczyk Portrait">
+      </picture>
+       <h2>
+        Witaj,
+       </h2>
+       <p>
+        Znajdujesz się na stronie przedstawiającej mój życiorys zawodowy. 
+       </p>
+       <p>Zapraszam Cię do zapoznania się z jej zawartością.</p>
+    
+         <table>
+            <thead>
+                <tr>
+                 <th>Nazwa</th>
+                 <th>Wartość</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                 <td>HTML</td>
+                 <td>
+                    <div class="bar" style="width:80%"></div>
+                 </td>
+              </tr>
+              <tr>
+                 <td>CSS</td>
+                 <td>
+                     <div class="bar" style="width:40%"></div>
+                 </td>
+              </tr>
+             </tbody>
+         </table>
+        
+     </header>
+    
+    <main>
+        <header>
+         <h2>Najważniejsze informacje
+         </h2>
+        </header>
+        <article>
+            <p>2021-2022</p>
+         <h3>Lorem, ipsum dolor.</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ea temporibus fugiat voluptatum architecto eos asperiores nemo maxime enim incidunt? Deserunt consectetur perferendis voluptas iure nisi quaerat quibusdam, velit voluptate?</p>
+        </article>
+
+        <article>
+            <p>2021-2022</p>
+         <h3>Lorem, ipsum dolor.</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ea temporibus fugiat voluptatum architecto eos asperiores nemo maxime enim incidunt? Deserunt consectetur perferendis voluptas iure nisi quaerat quibusdam, velit voluptate?</p>
+        </article>
+
+        <article>
+            <p>2021-2022</p>
+         <h3>Lorem, ipsum dolor.</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ea temporibus fugiat voluptatum architecto eos asperiores nemo maxime enim incidunt? Deserunt consectetur perferendis voluptas iure nisi quaerat quibusdam, velit voluptate?</p>
+        </article>
+
+        <article>
+            <p>2021-2022</p>
+         <h3>Lorem, ipsum dolor.</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ea temporibus fugiat voluptatum architecto eos asperiores nemo maxime enim incidunt? Deserunt consectetur perferendis voluptas iure nisi quaerat quibusdam, velit voluptate?</p>
+        </article>
+
+        <!-- Wykształcenie -->
+        <!-- Doświadczenie -->
+    </main>
+ </div>
+
+<footer>
+    <h2>Kontakt</h2>
+    <div class="footerWrapper">
+      <section>
+        <a href="mailto:andy@mail.com">
+          <span class="material-symbols-outlined">
+              contact_mail
+              </span>
+          andy@mail.com</a>
+          <a href="tel:+48 100 200 300">
+              <span class="material-symbols-outlined">
+                  smartphone
+                  </span> +48 100 200 300</a>
+      </section>
+      <section>
+        <a href="http://127.0.0.1:5500/link" target="_blank">
+          <span class="material-symbols-outlined">
+            share
+          </span>
+              
+          Share</a>
+          <a href="http://127.0.0.1:5500/link" target="_blank">
+            <span class="material-symbols-outlined">
+              attach_file
+              </span>
+                   Media</a>
+      </section>
+    </div>
+    <p>Hope to see You soon 👋</p>
+</footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
